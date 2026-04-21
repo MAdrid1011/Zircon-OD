@@ -1,0 +1,26 @@
+# ── sbt / Scala build artifacts ───────────────────────────────────────────────
+target/
+project/target/
+project/project/
+.bsp/
+.bloop/
+.metals/
+.scala-build/
+
+# ── Chisel / firtool output ───────────────────────────────────────────────────
+build/
+verilog/
+*.fir
+*.anno.json
+*.hgr
+
+# ── IDE & OS ──────────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# ── Logs / tmp ────────────────────────────────────────────────────────────────
+*.log
+*.tmp
